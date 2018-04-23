@@ -13,7 +13,7 @@ namespace whyDatabase
         /// <summary>
         /// 创建一个Mysql数据库对象
         /// </summary>
-        public override void CreateDatabase(string HostOrPath = "XJDL_MIIS.lib", string UName = "admin", string UPassword = "xjdl!@#2015", string DBaseName = "")
+        public override void CreateDatabase(string HostOrPath = "", string UName = "root", string UPassword = "", string DBaseName = "")
         {
             this._myDB = new MyMysql(HostOrPath, UName, UPassword, DBaseName);
         }
