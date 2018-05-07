@@ -10,7 +10,7 @@ namespace whyDatabase
     {
         //数据库对象
         protected IwhyDatabaseBySQL _myDB;
-        public abstract void CreateDatabase(string HostOrPath, string UName, string UPassword, string DBaseName);
+        public abstract void CreateDatabase(string HostOrPath = "XJDL_MIIS.lib", string UName = "admin", string UPassword = "xjdl!@#2015", string DBaseName = "");
         /// <summary>
         /// 查询SQL，并返回结果表
         /// </summary>
